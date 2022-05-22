@@ -6,6 +6,7 @@
 	<modules>
 		<module>ProjectB</module>
 		<module>ProjectC</module>
+		<module>ProjectD</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
