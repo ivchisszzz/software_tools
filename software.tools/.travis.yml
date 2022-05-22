@@ -1,0 +1,11 @@
+language: java
+dist: trusty
+jdk:
+  -openjdk11
+beforeInstall:
+  -mvn clean
+
+script:
+    - java --version
+    - ./mvnw clean install
+    - ./mvnw test
