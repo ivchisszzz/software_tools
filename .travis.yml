@@ -3,11 +3,9 @@ dist: trusty
 jdk:
   -openjdk11
 beforeInstall:
-  -mvn clean
+  - chmod +x mvnw
 
 script:
     - java --version
     - ./mvnw clean install
     - ./mvnw test
-before_install:
-  - chmod +x mvnw
